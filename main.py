@@ -33,7 +33,7 @@ bot = commands.InteractionBot(intents=intents)
 @bot.event
 async def on_ready():
     print(f"Bot is ready! Logged in as {bot.user}")
-    genai.configure(api_key="AIzaSyAVWDJLtTzVCPZki6uy7fC8lMmq0xR6sI0")
+    genai.configure(api_key="")
     bot.model = genai.GenerativeModel("gemini-2.0-flash")
 
 @bot.slash_command(guild_ids=[i.id for i in bot.guilds])
@@ -316,4 +316,4 @@ async def ticketsoverview(interaction: ApplicationCommandInteraction):
 
 
 if __name__ == "__main__":
-    bot.run("MTM2NTUxNTEyNjQwODYxMzkzOA.GWaocI.histbVpvyyhK2-lDo3a5iM1wC9S2Qf0bQKsxK8")
+    bot.run("")
