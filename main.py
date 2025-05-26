@@ -21,10 +21,10 @@ def get_config(server_id):
     server_configs = load_server_configs()
     return server_configs.get(str(server_id), {})
 
-"""
+
 load_dotenv()
 TOKEN = os.getenv("TOKEN")
-"""
+
 
 intents = disnake.Intents.all()
 intents.messages = True
@@ -316,4 +316,4 @@ async def ticketsoverview(interaction: ApplicationCommandInteraction):
 
 
 if __name__ == "__main__":
-    bot.run("")
+    bot.run(TOKEN)
