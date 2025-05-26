@@ -1,0 +1,17 @@
+{
+    "1365519077786914877": {
+        "key": "8e0ecfa5-fc42-49f1-bb12-0c2a3b96afbc",
+        "open": true,
+        "ticket-open-message": "Click the button to create a ticket!",
+        "ticket-category": "Support",
+        "ticket-channel": "ticket-",
+        "ticket-message": "Hello {{user}}, a <@1365520086961619025> will be with you shortly. Please provide as much detail as possible on your problem.",
+        "auto-rename": false,
+        "user-close": false,
+        "staff-id": 1365520086961619025,
+        "whitelist": false,
+        "role-id": 1365523762354585620,
+        "ticket-transcribe": true,
+        "transcript": 1365525180528594994
+    }
+}
